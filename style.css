@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: burlywood;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
+
+h4 {
+    background-color: blue;
+    color: burlywood;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 48px;
+    color: blue;
+}
+
+.header {
+    font-size: 36px;
+}
+
+.list-item {
+    font-size: 24px;
+}
+
+.ingredient {
+    background-color: black;
+    color: white;
+}
+
+.step {
+    background-color: grey;
+}
