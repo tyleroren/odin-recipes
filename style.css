@@ -1,11 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: Verdana, Arial, sans-serif;
     background-color: burlywood;
 }
 
-img {
+.food-img {
     height: auto;
     width: 600px;
+}
+
+.cat-img {
+    height: 300px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 h4 {
@@ -15,8 +30,10 @@ h4 {
 
 .title {
     font-weight: 800;
-    font-size: 48px;
-    color: blue;
+    font-size: 58px;
+    color: rgb(4, 4, 131);
+    margin: 17px;
+    padding: 5px;
 }
 
 .header {
@@ -34,4 +51,27 @@ h4 {
 
 .step {
     background-color: grey;
+}
+
+.page-top {
+    border: 5px solid black;
+    width: 980px;
+    height: 310px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content {
+    border: 5px;
+    width: 980px;
+    height: auto;
+    margin: 50px auto;
+
+}
+
+.logo {
+    height: 60px;
+    width: 44px;
 }
